@@ -4,6 +4,9 @@
     --tertiary-color:#ffebcd; 
 }
 
+* {
+    box-sizing: border-box;
+}
 
 header {
     padding: 0px 10px;
@@ -55,50 +58,86 @@ color: var(--secondary-color);
 
 .hero {
     background-image:url(./images/img-milky-way.jpeg);
+    background-position: 80%;
+    background-attachment: fixed;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    margin: 0px;
+}
+.hero h2 {
+    font-size: 58px; 
+    border-right-style: none;
 }
 
+/* About Me*/
+article {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+article h2 {
+    align-self: flex-start;
+    padding: 0 10px 0 0;
+    border-right-style: solid;
+}
+
+article p{
+    padding: 0 0 0 50px;
+    margin: 5px 0 15px 0;
+
+}
 /* Work apps */
 
 section {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+
+}
+section h2 {
+    align-self: flex-start;
+    padding: 0 30px 0 0;
+    border-right-style: solid;
+    align-items: stretch;
 }
 
-.section {
-    display: flex;
+/*.projects {
+    display: inline-block;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+}*/
+
+.apps {
+    display: inline-block;
     flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: flex-start;
+
+    border: 3px solid var(--primary-color);
 
 }
 
-section div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border: 3px solid black;
+.contacts {
+    padding: 0 0 0 50px;
+}
+
+.contacts a {
+    display: inline;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 h2 {
     color: var(--primary-color);
-}
-h3 {
-    
-}
-.side-car {
-    display: flex;
-    flex: 1;
-    align-self: flex-start;
-    align-items: stretch;
-}
-
-.apps {
-
-
 }
