@@ -4,8 +4,9 @@
     --tertiary-color:#ffebcd; 
 }
 
+
 header {
-    padding: 15px 15px;
+    padding: 0px 10px;
     background-color: var(--secondary-color);
     display: flex;
     flex-wrap: wrap;
@@ -21,12 +22,14 @@ header {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    justify-content: space-around;
     list-style: none;
+    
 } 
  
 header nav ul a {
+
     padding: 5px 10px;
     font-size: 1.55vw;
     color: var(--primary-color);
@@ -48,30 +51,54 @@ color: var(--secondary-color);
 
 }
 
+/* hero */
+
+.hero {
+    background-image:url(./images/img-milky-way.jpeg);
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+/* Work apps */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .section {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    border: 2px #ffebcd;
 
 }
 
 section div {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
     border: 3px solid black;
     flex-wrap: wrap;
 }
+
+h2 {
+    color: var(--primary-color);
+}
+h3 {
+    
+}
 .side-car {
     display: flex;
+    flex: 1;
     align-self: flex-start;
     align-items: stretch;
 }
 
-article p {
-    float: right;
+.apps {
+
+
 }
