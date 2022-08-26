@@ -1,6 +1,6 @@
 :root {
     --primary-color: #9ae4e2; 
-    --secondary-color: rgb(98, 96, 96); 
+    --secondary-color: rgb(55, 63, 93); 
     --tertiary-color:#0e1f5b; 
 }
 
@@ -64,6 +64,7 @@ color: var(--secondary-color);
     background-image:url(./images/img-milky-way.jpeg);
     background-attachment: fixed;
     background-size: cover;
+    background-position: 80%;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -89,11 +90,16 @@ article h2 {
     align-self: flex-start;
     padding: 0 10px 0 100px;
     border-right-style: solid;
+    font-size: 30px;
+    
+    
 }
 
 article p{
     padding: 0 0 0 50px;
     margin: 5px 0 15px 0;
+    font-size: 16px;
+    color: var(--tertiary-color);
 
 }
 /* Work apps */
@@ -116,6 +122,7 @@ section {
     flex: 1;
     padding: 10px 10px 10px 20px;
     
+    
 
 }
 section h2 {
@@ -132,7 +139,8 @@ section h2 {
     padding: 0%;
     color: var(--primary-color);
     background-color: var(--tertiary-color);
-    border: 2px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
+
 }
 .apps:hover {
     background-color: var(--primary-color);
