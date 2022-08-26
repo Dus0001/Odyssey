@@ -52,7 +52,7 @@ header h1 {
 }
 
 header h1 a {
-font-size: 30px;
+font-size: 40px;
 font-weight: bold;
 color: var(--secondary-color);
 
@@ -90,7 +90,7 @@ article h2 {
     align-self: flex-start;
     padding: 0 10px 0 100px;
     border-right-style: solid;
-    font-size: 30px;
+    font-size: 60px;
     
     
 }
@@ -159,6 +159,7 @@ section h2 {
 
 h2 {
     color: var(--tertiary-color);
+    font-size: 60px;
 }
 
 h3 {
