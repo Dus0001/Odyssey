@@ -12,4 +12,4 @@ Software Dev portfolio displaying all functional projects for future employers.
 
 
 ## Contribution
-Made with ❤️ by Daven
+Made by Daven 🫶🏾
